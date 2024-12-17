@@ -13,37 +13,37 @@ const {
   editCourse,
   getInstructorCourses,
   deleteCourse,
-} = require("../../controllers/Course");
+} = require("../controllers/Course");
 
 // Categories Controllers Import
 const {
   showAllCategories,
   createCategory,
   categoryPageDetails,
-} = require("../../controllers/Category");
+} = require("../controllers/Category");
 
 // Sections Controllers Import
 const {
   createSection,
   updateSection,
   deleteSection,
-} = require("../../controllers/Section");
+} = require("../controllers/Section");
 
 // Sub-Sections Controllers Import
 const {
   createSubSection,
   updateSubSection,
   deleteSubSection,
-} = require("../../controllers/Subsection");
+} = require("../controllers/Subsection");
 
 // Rating Controllers Import
 const {
   createRating,
   getAverageRating,
   getAllRating,
-} = require("../../controllers/RatingAndReview");
+} = require("../controllers/RatingAndReview");
 
-const { updateCourseProgress } = require("../../controllers/courseProgress");
+const { updateCourseProgress } = require("../controllers/courseProgress");
 
 // Importing Middlewares
 const {
@@ -51,7 +51,7 @@ const {
   isInstructor,
   isStudent,
   isAdmin,
-} = require("../../middlewares/auth");
+} = require("../middlewares/auth");
 
 // ********************************************************************************************************
 //                                      Course routes

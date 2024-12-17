@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { auth, isInstructor } = require("../../middlewares/auth");
+const { auth, isInstructor } = require("../middlewares/auth");
 const {
   deleteAccount,
   updateProfile,
@@ -8,7 +8,7 @@ const {
   updateDisplayPicture,
   getEnrolledCourses,
   instructorDashboard,
-} = require("../../controllers/Profile");
+} = require("../controllers/Profile");
 
 // ********************************************************************************************************
 //                                      Profile routes

@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "echo 'No build step for backend'",
+    "vercel-build": "echo hello",
     "dev": "node index.js"
   },
   "keywords": [],
