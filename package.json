@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "build": "echo 'No build step for backend'",
     "dev": "node index.js"
   },
   "keywords": [],

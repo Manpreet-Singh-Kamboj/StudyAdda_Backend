@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 
-const userRoutes = require("./routes/User");
-const profileRoutes = require("./routes/Profile");
-const paymentRoutes = require("./routes/Payments");
-const courseRoutes = require("./routes/Course");
-const contactUsRoute = require("./routes/Contact");
+const userRoutes = require("./api/routes/User");
+const profileRoutes = require("./api/routes/Profile");
+const paymentRoutes = require("./api/routes/Payments");
+const courseRoutes = require("./api/routes/Course");
+const contactUsRoute = require("./api/routes/Contact");
 const database = require("./config/database");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
